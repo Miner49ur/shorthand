@@ -136,7 +136,6 @@ function openPopup(assignment) {
               switch (k) {
                 case "assignment":
                   document.assignment = data[k];
-                  alert(document.assignment)
                   break;
                 case "dev_env":
                   document.dev_env = data[k];
